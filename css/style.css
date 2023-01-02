@@ -467,7 +467,7 @@ ol {
 
 .course-warp {
 	max-width: 1559px;
-	padding: 0 15px;
+	padding: 0 30px;
 	margin: 0 auto -30px;
 }
 
@@ -715,8 +715,8 @@ ol {
 }
 
 .widget-item {
-	width: 20%;
-	padding: 0 15px;
+	width: 25%;
+	padding: 0 20px 0 60px;
 }
 
 .widget-item h4 {
@@ -1678,6 +1678,9 @@ ol {
 		margin-bottom: 15px;
 		border-right: none;
 	}
+	.course-warp{
+		padding: 0 10px;
+	}
 }
 
 /* Medium Mobile :480px. */
@@ -1785,7 +1788,7 @@ ol {
 	transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .how-its .active, .accordion:hover {
 	background-color: #d82a4e;
   }
   
@@ -1797,7 +1800,7 @@ ol {
 	margin-left: 5px;
   }
   
-  .active:after {
+  .how-its .active:after {
 	content: "\2212";
   }
   
@@ -1821,4 +1824,7 @@ ol {
   #information p{
 	color:#fff;
 	font-size: 1.5rem;
+  }
+  .course-item .active{
+	background: none !important;
   }
