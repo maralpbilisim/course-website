@@ -120,12 +120,25 @@ $(window).on('load', function() {
 		
 	});
 
+<<<<<<< HEAD
 })
 	//  TESTIMONIALS CAROUSEL HOOK
 (jQuery);
 jQuery(document).ready(function($) {
 	"use strict";
 
+=======
+<<<<<<< HEAD
+})(jQuery);
+
+=======
+})
+	//  TESTIMONIALS CAROUSEL HOOK
+(jQuery);
+jQuery(document).ready(function($) {
+	"use strict";
+
+>>>>>>> dd356ca (testimonial slider)
 	$('#customers-testimonials').owlCarousel({
 		loop: true,
 		center: true,
@@ -148,3 +161,7 @@ jQuery(document).ready(function($) {
 		}
 	});
   });
+<<<<<<< HEAD
+=======
+>>>>>>> bac3ddf (testimonial slider)
+>>>>>>> dd356ca (testimonial slider)
