@@ -303,7 +303,7 @@ ol {
 ---------------------*/
 
 .hero-section {
-	height: 600px;
+	height: 650px;
 }
 
 .hero-text {
@@ -1449,6 +1449,9 @@ ol {
 	background-color:#d82a4e ;
 	padding: 100px 0;
 }
+.apply-text{
+	text-align: right;
+}
 
 /*------------------
   Responsive
@@ -1504,6 +1507,9 @@ ol {
 	}
 	.course-meta {
 		padding: 5px 20px;
+	}
+	.apply-text{
+		text-align: right;
 	}
 }
 
@@ -1577,6 +1583,9 @@ ol {
 	}
 	#team img{
 		margin-bottom: 20px;
+	}
+	.apply-text{
+		text-align: left !important;
 	}
 }
 
@@ -1689,6 +1698,9 @@ ol {
 	.course-warp{
 		padding: 0 10px;
 	}
+	.apply-text{
+		text-align: left !important;
+	}
 }
 
 /* Medium Mobile :480px. */
@@ -1729,6 +1741,9 @@ ol {
 	}
 	.course-meta-area .price-btn {
 		margin-bottom: 20px;
+	}
+	.apply-text{
+		text-align: left !important;
 	}
 }
 
@@ -1776,6 +1791,9 @@ ol {
 	}
 	.contact-info-area .social-links a {
 		margin-right: 10px;
+	}
+	.apply-text{
+		text-align: left;
 	}
 }
 
